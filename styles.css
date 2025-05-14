@@ -83,7 +83,7 @@ ul{
 }
 */
 
-/* Adicionado abaixo o css da section de contatos e mapa*/
+/* Adicionado abaixo o css da section de contatos e mapa.*/
 
 #contato {
   padding: 60px 20px;
@@ -131,7 +131,7 @@ ul{
 .contato-item h3 {
   margin: 0;
   font-size: 1.1rem;
-  color: #FFFFFF/;
+  color: #FFFFFF;
 }
 
 .contato-item p {
