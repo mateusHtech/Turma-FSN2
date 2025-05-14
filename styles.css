@@ -1,0 +1,84 @@
+body{
+    display: grid;
+    background-image: url(imagens/imagem\ 4.jpg);
+}
+
+#informacoes-evento {
+    text-align: center;
+    background: linear-gradient(to bottom, #f6ae2d, #86bbd8); 
+    border-radius: 15px;
+    overflow: hidden;
+    
+    color: #122974;
+}
+
+.sabado{
+      display: flex;
+      justify-content: space-between; /* Distribui espaço entre os cards */
+      flex-wrap: wrap;
+      max-width: 450px;
+      margin: 0 auto; /* Centraliza o container */
+      background-color: rgba(82, 45, 255, 0.5);
+      color: antiquewhite;
+      /*background: linear-gradient(to right, #e6af2e, #da2c38);*/
+      padding: 50px;
+      border-radius: 12px;
+
+      
+}
+
+.sexta {
+    display: flex;
+    flex-wrap: wrap;
+    background: linear-gradient(to right, #e6af2e, #da2c38);
+    border-radius: 12px;
+    overflow: hidden;
+    margin: 0 auto;
+    max-width: 450px;
+    justify-content: space-between; /* Distribui espaço entre os cards */
+    padding: 50px;
+}
+
+.domingo {
+    margin: 0 auto;
+    padding: 50px;
+      border-radius: 12px;
+      background: linear-gradient(to right, #e6af2e, #da2c38);
+      max-width: 450px;
+}
+
+.grid-container {
+
+display: flex;
+flex-wrap: wrap;
+margin: 100px;
+padding: 5px;
+}
+/*
+.grid-container{
+ color: #122974;
+    background: linear-gradient(to right, #e6af2e, #da2c38);
+    border-radius: 15px;
+    overflow: hidden;
+    width: 350px;
+}
+
+h3{
+ color: #122974;
+    background: linear-gradient(to right, #d66853, #6b0504);
+    border-radius: 15px;
+    overflow: hidden;
+    width: 300px;
+}
+
+#descricao-evento {
+back
+}
+
+ul{
+    background-color: #e6af2e;
+    border-radius: 15px;
+    overflow: hidden;
+    width: 300px;
+}
+*/
