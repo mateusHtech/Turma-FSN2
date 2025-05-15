@@ -83,12 +83,12 @@ ul{
 }
 */
 
-/* Adicionado abaixo o css da section de contatos e mapa!*/
+/* Section Local e Contatos*/
 
 #contato {
   padding: 60px 20px;
-  background-color: #191919;
-  font-family: Arial, Helvetica, sans-serif;
+  background-color:#191919 ;
+  font-family: 'Poppins', sans-serif;
 }
 
 .contato-container {
@@ -108,12 +108,12 @@ ul{
 .contato-info h2 {
   font-size: 2rem;
   margin-bottom: 10px;
-  color:#FFFFFF;
+  color: #ffff;
 }
 
 .contato-info p {
   margin-bottom: 30px;
-  color: #FFFFFF;
+  color:#ffff;
 }
 
 .contato-item {
@@ -131,17 +131,17 @@ ul{
 .contato-item h3 {
   margin: 0;
   font-size: 1.1rem;
-  color: #FFFFFF;
+  color: #ffff;
 }
 
 .contato-item p {
   margin: 5px 0;
   font-size: 0.95rem;
-  color: #FFFFFF;
+  color: #ffff;
 }
 
 .contato-item a {
-  color:#FFFFFF;
+  color: #ffff;
   text-decoration: none;
   font-weight: bold;
 }
@@ -154,6 +154,8 @@ ul{
   flex: 1 1 500px;
   border-radius: 10px;
   overflow: hidden;
-  box-shadow: 0 2px 10px rgba(121, 168, 110, 0.1);
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
 }
+
+
 
