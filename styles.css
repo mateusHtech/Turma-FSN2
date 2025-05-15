@@ -82,3 +82,80 @@ ul{
     width: 300px;
 }
 */
+
+/* Section Local e Contatos*/
+
+#contato {
+  padding: 60px 20px;
+  background-color:#191919 ;
+  font-family: 'Poppins', sans-serif;
+}
+
+.contato-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.contato-info {
+  flex: 1 1 400px;
+}
+
+.contato-info h2 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+  color: #ffff;
+}
+
+.contato-info p {
+  margin-bottom: 30px;
+  color:#ffff;
+}
+
+.contato-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 15px;
+  margin-bottom: 25px;
+}
+
+.contato-item img {
+  width: 24px;
+  height: 24px;
+}
+
+.contato-item h3 {
+  margin: 0;
+  font-size: 1.1rem;
+  color: #ffff;
+}
+
+.contato-item p {
+  margin: 5px 0;
+  font-size: 0.95rem;
+  color: #ffff;
+}
+
+.contato-item a {
+  color: #ffff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.contato-item a:hover {
+  text-decoration: underline;
+}
+
+.contato-mapa {
+  flex: 1 1 500px;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+
+
