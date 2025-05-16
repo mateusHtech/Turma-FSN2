@@ -13,6 +13,7 @@
 }
 body{
     margin: 0px;
+    background-color: #1d1b25;
 }
 
 html{
@@ -71,13 +72,13 @@ html{
 }
 
 .sabado{
-      display: flex;
+      flex-grow: 1;
+      flex-basis: 200;
       justify-content: space-between; /* Distribui espaço entre os cards */
       flex-wrap: wrap;
       max-width: 450px;
       margin: 0 auto; /* Centraliza o container */
-      background-color: rgba(82, 45, 255, 0.5);
-      color: antiquewhite;
+      background: linear-gradient(to bottom, #f6ae2d, #86bbd8); 
       /*background: linear-gradient(to right, #e6af2e, #da2c38);*/
       padding: 50px;
       border-radius: 12px;
@@ -85,9 +86,10 @@ html{
 }
 
 .sexta {
-    display: flex;
+    flex-grow: 1;
+    flex-basis: 200;
     flex-wrap: wrap;
-    background: linear-gradient(to right, #e6af2e, #da2c38);
+    background: linear-gradient(to bottom, #f6ae2d, #86bbd8);
     border-radius: 12px;
     overflow: hidden;
     margin: 0 auto;
@@ -100,8 +102,11 @@ html{
     margin: 0 auto;
     padding: 50px;
       border-radius: 12px;
-      background: linear-gradient(to right, #e6af2e, #da2c38);
+      background: linear-gradient(to bottom, #f6ae2d, #86bbd8);
+      background-color: rgba(0, 0, 0, 0.5);
       max-width: 450px;
+      flex-grow: 1;
+      flex-basis: 200;
 }
 
 .grid-container {
@@ -111,6 +116,21 @@ flex-wrap: wrap;
 margin: 100px;
 padding: 5px;
 }
+
+.grid-container:hover > :not(:hover) {
+filter: blur(5px);
+opacity: o.5;
+}
+
+#sobre {
+display: flex;
+justify-content: space-between;
+background-color: #27273b;
+color: #a0a0c7;
+border-radius: 12px;
+margin: 50px
+}
+
 /*
 .grid-container{
  color: #122974;
