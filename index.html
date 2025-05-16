@@ -34,14 +34,24 @@
   <main>
     <!-- Agnes: Banner do evento no topo com rolagem automática (3s) -->
     <header>
-      <!-- Banner do topo aqui -->
+        <div class="header-bg">
+            <div class="header-content">
+                <h1 class="header-title header-text">Ceará Junino: Celebração da Cultura Nordestina</h1>
+                <p class="header-invite header-text">Venha celebrar o Ceará Junino, um evento que reúne tradições, 
+                música e dança em um só lugar. Junte-se a nós no anfiteatro do Parque do Cocó, em Fortaleza, 
+                de 29 de maio a 01 de junho de 2025.</p>
+                <button id="button-subscribe" class="button-header"><a href="#formulario-inscricao">Inscreva-se</a></button>
+                <button id="button-know-more" class="button-header"><a href="#descricao-evento">Saiba mais</a></button>
+            </div>
+        </div>
     </header>
 
     </section>
-    <!-- ==================================================================================== -->
-    <section id="descriao-evento">
-      <h1>PROGRAMAÇÃO:</h1>
-      <div class="grid-container"> <!-- abri uma div para estilizar no css a parte da programação do evento -->
+
+    <!-- Descrição da programação - Mateus-->
+    <section id="descricao-evento"> 
+        <h1>PROGRAMAÇÃO:</h1>
+        <div class="grid-container">  <!-- abri uma div para estilizar no css a parte da programação do evento -->
 
         <section>
           <div class="sexta">
@@ -111,10 +121,17 @@
           
     </section>
         <!-- ========================================================================================= -->
-         <section id="sobre">
+          <section id="sobre">   
+            <img src="Foto da seção sobre/Section-sobre.jpeg" alt="Foto da quadrilha"> 
+            <div class="sobretext">
             <h1>Ceará Junino: Uma celebração vibrante da cultura nordeste e suas tradições.</h1>
             <h3>O Ceará Junino é um evento que reúne quadrilhas, música e gastronomia típica, promovendo a rica cultura do Nordeste, Venha celebrar conosco no anfiteatro do Parque do Cocó, em Fortaleza, de 29 de maio a 01 de junho de 2025!</h3>
-          </section>
+            <h3>Durante 3 dias de festa, o público poderá vivenciar uma programação diversificada e cheia de encanto: apresentações de quadrilhas tradicionais e estilizadas, teatro infantil com histórias do nosso folclore, feira de artesanato com talentos locais, dinâmicas com prêmios para toda a família, além de uma saborosa competição gastronômica com pratos típicos da nossa terra.</h3>
+            <h3>A cada noite, o forró vai embalar os corações com bandas regionais e muito arrasta-pé sob o céu estrelado do Cocó. O evento valoriza a identidade nordestina, estimula a cultura popular e cria memórias inesquecíveis em um ambiente seguro, gratuito e acessível a todos.</h3>
+            <h3>Traga sua alegria, sua roupa xadrez e sua vontade de celebrar: o Ceará Junino espera por você!</h3>
+               </div>
+           </section>
+
          <!-- ========================================================================================= -->
 
         <!-- Sibele: Mapa aéreo local do evento -->
@@ -379,7 +396,13 @@
 
   <!-- Agnes: Footer/rodapé -->
   <footer>
-    <!-- Rodapé do site -->
+    <div>
+      <hr> 
+      <div class="linha-footer">
+        <div class="logo">Ceará Junino</div>
+        <p>© 2025 Ceará Junino. Todos os direitos reservados</p>
+      </div>
+    </div>
   </footer>
 
 </body>
