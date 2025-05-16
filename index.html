@@ -10,29 +10,32 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap" rel="stylesheet">
 </head>
+
 <body>
+  
   <!-- Emanoel: Titulo com menu -->
-  <header>
-    <nav class="navbar">
-      <div class="logo">Logo</div>
+   <header>
+    <nav class="navbar" aria-label="Menu principal">
+      <a href="/" class="logo" aria-label="Página inicial Ceará Junino">Ceará Junino</a>
       <div class="right-container">
         <ul class="nav-links">
-          <li><a href="#">Início</a></li>
-          <li><a href="#">Sobre Nós</a></li>
-          <li><a href="#">Programação</a></li>
-          <li><a href="#">Inscrições</a></li>
-        </ul>
-        <div class="nav-buttons">
-          <button class="btn-outline">Inscreva-se</button>
-          <button class="btn-yellow">Saiba Mais</button>
-        </div>
+        <li><a href="#banner">Início</a></li>
+        <li><a href="#sobre">Sobre Nós</a></li>
+        <li><a href="#descricao-evento">Programação</a></li>
+        <li><a href="#galeria">Galeria</a></li>
+      </ul>
+      <div class="nav-buttons">
+        <a href="#formulario-inscricao" class="btn-outline">Inscreva-se</a>
+        <a href="#contato" class="btn-yellow">Saiba Mais</a>
       </div>
-    </nav>
-  </header>
+    </div>
+  </nav>
+</header>
 
   <main>
     <!-- Agnes: Banner do evento no topo com rolagem automática (3s) -->
     <header>
+      <section id="banner">
         <div class="header-bg">
             <div class="header-content">
                 <h1 class="header-title header-text">Ceará Junino: Celebração da Cultura Nordestina</h1>
@@ -44,7 +47,7 @@
             </div>
         </div>
     </header>
-
+    
     </section>
 
     <!-- Descrição da programação - Mateus-->
@@ -117,7 +120,6 @@
 
           </div>
       </div>
-          
     </section>
         <!-- ========================================================================================= -->
           <section id="sobre">   
@@ -128,8 +130,8 @@
             <h3>Durante 3 dias de festa, o público poderá vivenciar uma programação diversificada e cheia de encanto: apresentações de quadrilhas tradicionais e estilizadas, teatro infantil com histórias do nosso folclore, feira de artesanato com talentos locais, dinâmicas com prêmios para toda a família, além de uma saborosa competição gastronômica com pratos típicos da nossa terra.</h3>
             <h3>A cada noite, o forró vai embalar os corações com bandas regionais e muito arrasta-pé sob o céu estrelado do Cocó. O evento valoriza a identidade nordestina, estimula a cultura popular e cria memórias inesquecíveis em um ambiente seguro, gratuito e acessível a todos.</h3>
             <h3>Traga sua alegria, sua roupa xadrez e sua vontade de celebrar: o Ceará Junino espera por você!</h3>
-               </div>
-           </section>
+          </div>
+        </section>
 
          <!-- ========================================================================================= -->
 
@@ -350,16 +352,61 @@
           </div>
         </body>
         </html>
-        
- 
 
-    <!-- Emanoel: Galeria de fotos com carrossel e botões -->
-    <section id="galeria-fotos">
-      <!-- Galeria de fotos/carrossel -->
-    </section>
+    <!-- Emanoel: Galeria de fotos -->
+     <section id="galeria">
+      <div class="galeria-container"></div>
+<section class="carousel-section" aria-label="Carrossel automático Ceará Junino">
+  <h2>Festival Ceará Junino - Destaques</h2>
+  <div class="carousel">
+    <div class="carousel__track">
+      <div class="carousel__slide">
+        <img src="./Imagens da galeria//Galeria-1.jpeg" alt="Quadrilha Junina tradicional" />
+        <h3>Passos Ensaiados</h3>
+        <p>Coreografia animada ao som da sanfona e do triângulo.</p>
+      </div>
+      <div class="carousel__slide">
+        <img src="./Imagens da galeria//Galeria-2.jpeg" alt="Comidas típicas do Ceará Junino" />
+        <h3>Quadrilha Tradicional</h3>
+        <p>Apresentação típica com dança e música nordestina.</p>
+      </div>
+      <div class="carousel__slide">
+        <img src="./Imagens da galeria//Galeria-3.jpeg" alt="Fogueira de São João" />
+        <h3>Festa no Arraiá</h3>
+        <p>Quadrilheiros em trajes coloridos celebrando o São João.</p>
+      </div>
+      <div class="carousel__slide">
+        <img src="./Imagens da galeria//Galeria-4.jpeg" alt="Músicos tocando forró" />
+        <h3>Cultura Nordestina</h3>
+        <p>A beleza da tradição junina em cada movimento.</p>
+      </div>
+      <!-- Duplicados para loop -->
+      <div class="carousel__slide">
+        <img src="./Imagens da galeria//Galeria-5.jpeg" alt="Quadrilha Junina tradicional" />
+        <h3>Energia Junina</h3>
+        <p>O ritmo contagiante da quadrilha encanta o público.</p>
+      </div>
+      <div class="carousel__slide">
+        <img src="./Imagens da galeria//Galeria-6.jpeg" alt="Comidas típicas do Ceará Junino" />
+        <h3>Tradiçao Viva</h3>
+        <p>Herança cultuturall mantida com orgulho e alegria.</p>
+      </div>
+      <div class="carousel__slide">
+        <img src="./Imagens da galeria//Galeria-7.jpeg" alt="Fogueira de São João" />
+        <h3>São João no Ceará</h3>
+        <p>A quadrilha é o coração dessa festa tão esperada.</p>
+      </div>
+      <div class="carousel__slide">
+        <img src="./Imagens da galeria//Galeria-8.jpeg" alt="Músicos tocando forró" />
+        <h3>Encanto Caipira</h3>
+        <p>Vestidos rodando, chapéus no ar e muita animação.</p>
+      </div>
+    </div>
+  </div>
+</section>
+</section>
 
     <!-- Jefferson: Seção de contato com a localização do lado direito .-->
-    <section id="contato">
       <section id="contato">
         <div class="contato-container">
           <div class="contato-info">
@@ -367,7 +414,7 @@
             <p>Entre em contato para dúvidas ou sugestões.</p>
 
             <div class="contato-item">
-              <img src="./imagens/icone-email.png" alt="Ícone de email">
+              <img src="./imagens do contato//icone-email.png" alt="Ícone de email">
               <div>
                 <h3>E-mail</h3>
                 <p>Envie um email para nós</p>
@@ -376,7 +423,7 @@
             </div>
 
             <div class="contato-item">
-              <img src="./imagens/icone-telefone.png" alt="Ícone de telefone">
+              <img src="./imagens do contato//icone-telefone.png" alt="Ícone de telefone">
               <div>
                 <h3>Telefone</h3>
                 <p>Fale conosco pelo nosso canal de voz.</p>
@@ -385,17 +432,17 @@
             </div>
 
             <div class="contato-item">
-              <img src="./imagens/logo-instagram.png" alt="Instagram" width="24">
+              <img src="./imagens do contato/logo-instagram.png" alt="Instagram" width="24">
               <a href="https://www.instagram.com/secultceara/" target="_blank">Instagram</a>
             </div>
 
             <div class="contato-item">
-              <img src="./imagens/logo-facebook.png" alt="Facebook" width="24">
+              <img src="./imagens do contato//logo-facebook.png" alt="Facebook" width="24">
               <a href="https://www.facebook.com/secultceara/" target="_blank">Facebook</a>
             </div>
 
             <div class="contato-item">
-              <img src="./imagens/icone-mapa.png" alt="Ícone de localização">
+              <img src="./imagens do contato//icone-mapa.png" alt="Ícone de localização">
               <div>
                 <h3>Local do Evento</h3>
                 <p>Parque do Cocó, Fortaleza - CE</p>
