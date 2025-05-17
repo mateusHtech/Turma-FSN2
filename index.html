@@ -32,6 +32,21 @@
   </nav>
 </header>
 
+<!-- Pergaminho -->
+<label for="abrirPergaminho" class="pergaminho">
+  <img src="./pergaminho/pergaminho.png" alt="Abrir Pergaminho">
+</label>
+<input type="checkbox" id="abrirPergaminho" style="display: none;">
+
+<!-- Modal -->
+<div class="modal">
+  <div class="fundoModal" onclick="document.getElementById('abrirPergaminho').checked = false;"></div>
+  <div class="conteudoModal">
+    <span class="fechar" onclick="document.getElementById('abrirPergaminho').checked = false;">×</span>
+    <img src="./pergaminho/folha.png" alt="Conteúdo do Pergaminho">
+  </div>
+</div>
+
   <main>
     <!-- Agnes: Banner do evento no topo com rolagem automática (3s) -->
     <header>
