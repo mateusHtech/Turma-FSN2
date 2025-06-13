@@ -672,3 +672,63 @@ select:focus {
 #abrirPergaminho:checked ~ .modal {
   display: flex;
 }
+/* Esconde o checkbox */
+.menu-toggle {
+  display: none;
+}
+
+/* Estilo do ícone hambúrguer */
+.hamburger {
+  display: none;
+  flex-direction: column;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+  cursor: pointer;
+  z-index: 200;
+}
+.hamburger span {
+  height: 4px;
+  width: 100%;
+  background: #333;
+  margin: 5px 0;
+  border-radius: 2px;
+  transition: 0.3s;
+}
+
+/* Exibe o hambúrguer e esconde o menu em telas pequenas */
+@media (max-width: 768px) {
+  .hamburger {
+    display: flex;
+  }
+  .right-container {
+    display: none;
+    position: absolute;
+    top: 60px;
+    right: 0;
+    background: #fff;
+    width: 200px;
+    box-shadow: 0 8px 16px rgba(0,0,0,0.1);
+    flex-direction: column;
+    z-index: 100;
+  }
+  /* Mostra o menu quando o checkbox está marcado */
+  .menu-toggle:checked ~ .right-container {
+    display: flex;
+  }
+}
+
+/* Em telas grandes, mostra tudo normalmente */
+@media (min-width: 769px) {
+  .hamburger {
+    display: none;
+  }
+  .right-container {
+    display: flex !important;
+    position: static;
+    background: none;
+    box-shadow: none;
+    width: auto;
+    flex-direction: row;
+  }
+}
