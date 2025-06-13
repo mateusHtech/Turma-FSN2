@@ -581,3 +581,143 @@ select:focus {
   }
 }
 /* Formulário - Sibele */
+
+/* Pergaminho */
+/* Ícone no canto direito */
+.pergaminho {
+  position: fixed;
+  right: 20px;
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
+  z-index: 999;
+}
+.pergaminho img {
+  width: 50px;
+  height: auto;
+}
+
+/* Modal escondido por padrão */
+.modal {
+  position: fixed;
+  top: 0; left: 0;
+  width: 100vw;
+  height: 100vh;
+  display: none;
+  justify-content: center;
+  align-items: center;
+  background-color: transparent;
+  z-index: 1000;
+}
+
+/* Fundo clicável para fechar */
+.fundoModal {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+}
+
+/* Conteúdo do modal */
+.conteudoModal {
+  position: relative;
+  background: url('textura-pergaminho.jpg') no-repeat center center;
+  background-size: cover;
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: none;
+  width: 95vw;
+  height: 95vh;
+  z-index: 1001;
+}
+
+.conteudoModal img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+/* Botão de fechar */
+.fechar {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  font-size: 40px;
+  font-weight: bold;
+  color: #fff; /* Deixa branco pra aparecer sobre o fundo */
+  background: rgba(0, 0, 0, 0.5); /* Fundo escuro semi-transparente */
+  border: none;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  line-height: 40px;
+  cursor: pointer;
+  z-index: 1002;
+}
+
+
+/* Quando o checkbox estiver marcado, mostra o modal */
+#abrirPergaminho:checked ~ .modal {
+  display: flex;
+}
+/* Esconde o checkbox */
+.menu-toggle {
+  display: none;
+}
+
+/* Estilo do ícone hambúrguer */
+.hamburger {
+  display: none;
+  flex-direction: column;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+  cursor: pointer;
+  z-index: 200;
+}
+.hamburger span {
+  height: 4px;
+  width: 100%;
+  background: #333;
+  margin: 5px 0;
+  border-radius: 2px;
+  transition: 0.3s;
+}
+
+/* Exibe o hambúrguer e esconde o menu em telas pequenas */
+@media (max-width: 768px) {
+  .hamburger {
+    display: flex;
+  }
+  .right-container {
+    display: none;
+    position: absolute;
+    top: 60px;
+    right: 0;
+    background: #fff;
+    width: 200px;
+    box-shadow: 0 8px 16px rgba(0,0,0,0.1);
+    flex-direction: column;
+    z-index: 100;
+  }
+  /* Mostra o menu quando o checkbox está marcado */
+  .menu-toggle:checked ~ .right-container {
+    display: flex;
+  }
+}
+
+/* Em telas grandes, mostra tudo normalmente */
+@media (min-width: 769px) {
+  .hamburger {
+    display: none;
+  }
+  .right-container {
+    display: flex !important;
+    position: static;
+    background: none;
+    box-shadow: none;
+    width: auto;
+    flex-direction: row;
+  }
+}
