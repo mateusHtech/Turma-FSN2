@@ -1,22 +1,30 @@
-# Turma-FSN2
-Projeto do grupo 3 - Capacita Brasil - Programação Fullstack
+Turma FSN2
+Projeto do Grupo 3 - Capacita Brasil - Programação Fullstack
 
 Colaboradores:
-Sibele Lino Caetano - Formulário
-Mateus Henrique Mesquita Soares - Programação do evento / Sobre o evento
-Emanoel Lima - Menu do site / Carrossel
-Jefferson Carvalho - Contatos / Design do site
-Agnes Ristau - Banner do evento / rodapé
 
+Sibele Lino Caetano – Responsável pelo Formulário
 
+Mateus Henrique Mesquita Soares – Programação do Evento / Sobre o Evento
 
-======================== Ceará Junino ==================================================
-DO QUE SE TRATA O PROJETO?
+Emanoel Lima – Menu do Site / Carrossel
 
-O projeto retrata um site criado para a divulgação de um evento anual relacionado a festa junina aqui no Ceará, chamado de Ceará Junino, com isso, criamos um site com o intuito de ser um guia para os usuários, contendo de forma fácil e ágil, informações como a programação completa e detalhada, fotos das edições anteriores, explicação do que se trata o evento, além de telefone para contatos. 
+Jefferson Carvalho – Contatos / Design do Site
 
+Agnes Ristau – Banner do Evento / Rodapé
 
+🎉 Ceará Junino
+📌 Do que se trata o projeto?
+Este projeto é uma landing page criado para divulgar o Ceará Junino, um tradicional evento anual de festa junina realizado no Ceará. A proposta é simples e funcional: montar uma landing page para o público, com tudo o que ele precisa saber de forma rápida e acessível.
 
+O site reúne:
 
+A programação completa do evento
 
+Imagens de edições anteriores
 
+Uma explicação clara sobre o que é o Ceará Junino
+
+Informações de contato para dúvidas ou suporte
+
+Tudo pensado para valorizar a cultura nordestina e facilitar o acesso às informações dessa festa que já virou patrimônio.
