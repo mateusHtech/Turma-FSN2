@@ -28,3 +28,5 @@ Uma explicação clara sobre o que é o Ceará Junino
 Informações de contato para dúvidas ou suporte
 
 Tudo pensado para valorizar a cultura nordestina e facilitar o acesso às informações dessa festa que já virou patrimônio.
+
+Link do projeto: https://mateushtech.github.io/Turma-FSN2/
